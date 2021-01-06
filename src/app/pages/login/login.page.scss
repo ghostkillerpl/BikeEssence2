@@ -1,0 +1,38 @@
+ion-content {
+    --background: none;
+    background-image: url('/assets/img/tło5.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-menu .item, .my-menu .item-content, .my-menu .item-complex{
+    background-color: rgba(0,0,0,0);
+    color: #FFFFFF;
+    }
+
+img
+{
+    margin-top: 13vh;
+}    
+.section1{
+    padding: 0px;
+    margin-top: 0px;
+}
+.login-section{
+    padding-top: 2vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    margin-top: 2vh;
+}
+p{
+    font-size: 14px;
+    border: 0 0 0 0;
+    color: black;
+}
+.loginlogo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ion-item {
+    --background: rgba(0,0,0,0);
+  }

@@ -3,8 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCJck4RzSg2LsD9Rv0Jzk2WSv-stpTQ9LY",
+    authDomain: "bikeessence.firebaseapp.com",
+    databaseURL: "https://bikeessence-default-rtdb.firebaseio.com",
+    projectId: "bikeessence",
+    storageBucket: "bikeessence.appspot.com",
+    messagingSenderId: "975337965626"
+  }
+ };
 
 /*
  * For easier debugging in development mode, you can import the following file
