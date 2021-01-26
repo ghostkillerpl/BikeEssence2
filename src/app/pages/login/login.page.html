@@ -23,7 +23,7 @@
       </div>
   
       <ion-item>
-        <ion-label color= "dark" style="font-weight: 800;" position="floating" color="primary">Password</ion-label>
+        <ion-label color= "dark" style="font-weight: 800;" position="floating" color="primary">Hasło</ion-label>
         <ion-input type="password" formControlName="password" class="form-controll" required></ion-input>
       </ion-item>
       <div class="validation-errors">
@@ -36,7 +36,7 @@
       </div>
   
       <div class="login-section">
-        <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" class="submit-btn" type="submit" [disabled]="!validations_form.valid">Log In</ion-button>
+        <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" class="submit-btn" type="submit" [disabled]="!validations_form.valid">Zaloguj</ion-button>
         <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" (click)="goToRegisterPage()"><p>Zarejestruj</p></ion-button>
         <ion-button color="secondary" expand="full"  fill="outline" shape="round" style=" margin-bottom: 12px;" (click)="loginWithFacebook()" ><ion-icon slot="end" name="logo-facebook"></ion-icon><p>Zaloguj przez Facebook</p></ion-button>
       </div>
